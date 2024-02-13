@@ -8,7 +8,7 @@ export const setlistSchema = z.object({
 	id: z.string(),
 	artist: artistSchema,
 	venue: venueSchema,
-	tour: tourSchema,
+	tour: tourSchema.optional(),
 	sets: z.object({ set: z.array(setSchema) }),
 	info: z.string().optional(),
 	url: z.string().url().optional(),

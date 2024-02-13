@@ -25,7 +25,7 @@
 		<ul>
 			{#each data.setlist as setlist}
 				<li>
-					<a href="/setlist/{setlist.id}">
+					<a href="/setlists/{setlist.id}">
 						{setlist.artist.name} at {setlist.venue.name}, {setlist.eventDate}
 					</a>
 				</li>
