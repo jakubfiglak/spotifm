@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { page, navigating } from '$app/stores';
+	import { page } from '$app/stores';
 	import { goto } from '$app/navigation';
 
 	export let data;
@@ -21,8 +21,17 @@
 		<input name="search" placeholder="Search term..." bind:value={search} />
 		<input type="submit" value="Search" />
 	</form>
-
-	<pre>{JSON.stringify(data, null, 2)}</pre>
+	{#if data.setlist}
+		<ul>
+			{#each data.setlist as setlist}
+				<li>
+					<a href="/setlist/{setlist.id}">
+						{setlist.artist.name} at {setlist.venue.name}, {setlist.eventDate}
+					</a>
+				</li>
+			{/each}
+		</ul>
+	{/if}
 </div>
 
 <style>

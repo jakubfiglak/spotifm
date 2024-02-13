@@ -1,0 +1,2303 @@
+{
+	"setlists": {
+		"type": "setlists",
+		"itemsPerPage": 20,
+		"page": 1,
+		"total": 1183,
+		"setlist": [
+			{
+				"id": "33a0506d",
+				"versionId": "g7b81aa5c",
+				"eventDate": "03-11-2023",
+				"lastUpdated": "2023-11-05T04:25:19.332+0000",
+				"artist": {
+					"mbid": "765774a0-2060-469b-8b7d-612eea48579b",
+					"name": "Helloween",
+					"sortName": "Helloween",
+					"disambiguation": "German power metal band",
+					"url": "https://www.setlist.fm/setlists/helloween-5bd683a8.html"
+				},
+				"venue": {
+					"id": "bd401c2",
+					"name": "Foro Pegaso",
+					"city": {
+						"id": "3515302",
+						"name": "Toluca",
+						"state": "México",
+						"stateCode": "MEX",
+						"coords": {
+							"lat": 19.2883333,
+							"long": -99.6672222
+						},
+						"country": {
+							"code": "MX",
+							"name": "Mexico"
+						}
+					},
+					"url": "https://www.setlist.fm/venue/foro-pegaso-toluca-mexico-bd401c2.html"
+				},
+				"tour": {
+					"name": "United Forces 2022-2023"
+				},
+				"sets": {
+					"set": [
+						{
+							"song": [
+								{
+									"name": "Halloween",
+									"tape": true,
+									"info": "Unarmed version; intro only"
+								},
+								{
+									"name": "Orbit",
+									"tape": true
+								},
+								{
+									"name": "Dr. Stein"
+								},
+								{
+									"name": "Eagle Fly Free"
+								},
+								{
+									"name": "Mass Pollution"
+								},
+								{
+									"name": "Future World"
+								},
+								{
+									"name": "Power"
+								},
+								{
+									"name": "Best Time"
+								},
+								{
+									"name": "I'm Alive"
+								},
+								{
+									"name": "Metal Invaders / Victim of Fate / Gorgar / Ride the Sky"
+								},
+								{
+									"name": "Heavy Metal (Is the Law)"
+								},
+								{
+									"name": "Forever and One (Neverland)"
+								},
+								{
+									"name": "How Many Tears"
+								}
+							]
+						},
+						{
+							"encore": 1,
+							"song": [
+								{
+									"name": "Perfect Gentleman"
+								},
+								{
+									"name": "Drum Solo"
+								},
+								{
+									"name": "I Want Out"
+								}
+							]
+						}
+					]
+				},
+				"url": "https://www.setlist.fm/setlist/helloween/2023/foro-pegaso-toluca-mexico-33a0506d.html"
+			},
+			{
+				"id": "1ba20930",
+				"versionId": "g43860363",
+				"eventDate": "16-09-2023",
+				"lastUpdated": "2023-09-17T11:45:49.106+0000",
+				"artist": {
+					"mbid": "765774a0-2060-469b-8b7d-612eea48579b",
+					"name": "Helloween",
+					"sortName": "Helloween",
+					"disambiguation": "German power metal band",
+					"url": "https://www.setlist.fm/setlists/helloween-5bd683a8.html"
+				},
+				"venue": {
+					"id": "3d61d43",
+					"name": "Nippon Budokan",
+					"city": {
+						"id": "1850147",
+						"name": "Tokyo",
+						"state": "Tokyo",
+						"stateCode": "40",
+						"coords": {
+							"lat": 35.69,
+							"long": 139.692
+						},
+						"country": {
+							"code": "JP",
+							"name": "Japan"
+						}
+					},
+					"url": "https://www.setlist.fm/venue/nippon-budokan-tokyo-japan-3d61d43.html"
+				},
+				"tour": {
+					"name": "United Forces 2022-2023"
+				},
+				"sets": {
+					"set": [
+						{
+							"song": [
+								{
+									"name": "Orbit",
+									"tape": true
+								},
+								{
+									"name": "Skyfall"
+								},
+								{
+									"name": "Eagle Fly Free"
+								},
+								{
+									"name": "Mass Pollution"
+								},
+								{
+									"name": "Future World"
+								},
+								{
+									"name": "Power"
+								},
+								{
+									"name": "Save Us"
+								},
+								{
+									"name": "Walls of Jericho",
+									"tape": true
+								},
+								{
+									"name": "Metal Invaders / Victim of Fate / Gorgar / Ride the Sky"
+								},
+								{
+									"name": "Heavy Metal (Is the Law)"
+								},
+								{
+									"name": "Forever and One (Neverland)"
+								},
+								{
+									"name": "Guitar Solo",
+									"info": "Sascha Gerstner"
+								},
+								{
+									"name": "Best Time"
+								},
+								{
+									"name": "Dr. Stein"
+								},
+								{
+									"name": "How Many Tears"
+								}
+							]
+						},
+						{
+							"encore": 1,
+							"song": [
+								{
+									"name": "Perfect Gentleman"
+								},
+								{
+									"name": "Keeper of the Seven Keys"
+								}
+							]
+						},
+						{
+							"encore": 2,
+							"song": [
+								{
+									"name": "Drum Solo",
+									"info": "Dani Löble"
+								},
+								{
+									"name": "I Want Out"
+								}
+							]
+						}
+					]
+				},
+				"url": "https://www.setlist.fm/setlist/helloween/2023/nippon-budokan-tokyo-japan-1ba20930.html"
+			},
+			{
+				"id": "43a2234b",
+				"versionId": "g4386dbab",
+				"eventDate": "14-09-2023",
+				"lastUpdated": "2023-09-14T22:54:54.968+0000",
+				"artist": {
+					"mbid": "765774a0-2060-469b-8b7d-612eea48579b",
+					"name": "Helloween",
+					"sortName": "Helloween",
+					"disambiguation": "German power metal band",
+					"url": "https://www.setlist.fm/setlists/helloween-5bd683a8.html"
+				},
+				"venue": {
+					"id": "bd2cd56",
+					"name": "ORIX Gekijou",
+					"city": {
+						"id": "1853909",
+						"name": "Osaka",
+						"state": "Osaka",
+						"stateCode": "32",
+						"coords": {
+							"lat": 34.694,
+							"long": 135.502
+						},
+						"country": {
+							"code": "JP",
+							"name": "Japan"
+						}
+					},
+					"url": "https://www.setlist.fm/venue/orix-gekijou-osaka-japan-bd2cd56.html"
+				},
+				"tour": {
+					"name": "United Forces 2022-2023"
+				},
+				"sets": {
+					"set": [
+						{
+							"song": [
+								{
+									"name": "Orbit",
+									"tape": true
+								},
+								{
+									"name": "Skyfall"
+								},
+								{
+									"name": "Eagle Fly Free"
+								},
+								{
+									"name": "Mass Pollution"
+								},
+								{
+									"name": "Future World"
+								},
+								{
+									"name": "Power"
+								},
+								{
+									"name": "Save Us"
+								},
+								{
+									"name": "Walls of Jericho",
+									"tape": true
+								},
+								{
+									"name": "Metal Invaders / Victim of Fate / Gorgar / Ride the Sky"
+								},
+								{
+									"name": "Heavy Metal (Is the Law)"
+								},
+								{
+									"name": "Forever and One (Neverland)"
+								},
+								{
+									"name": "Guitar Solo",
+									"info": "Sascha Gerstner"
+								},
+								{
+									"name": "Best Time"
+								},
+								{
+									"name": "Dr. Stein"
+								},
+								{
+									"name": "How Many Tears"
+								}
+							]
+						},
+						{
+							"encore": 1,
+							"song": [
+								{
+									"name": "Perfect Gentleman"
+								},
+								{
+									"name": "Keeper of the Seven Keys"
+								},
+								{
+									"name": "Drum Solo",
+									"info": "Dani Löble"
+								},
+								{
+									"name": "I Want Out"
+								}
+							]
+						}
+					]
+				},
+				"url": "https://www.setlist.fm/setlist/helloween/2023/orix-gekijou-osaka-japan-43a2234b.html"
+			},
+			{
+				"id": "73a2ca6d",
+				"versionId": "g4386bf17",
+				"eventDate": "10-09-2023",
+				"lastUpdated": "2023-09-11T13:38:07.053+0000",
+				"artist": {
+					"mbid": "765774a0-2060-469b-8b7d-612eea48579b",
+					"name": "Helloween",
+					"sortName": "Helloween",
+					"disambiguation": "German power metal band",
+					"url": "https://www.setlist.fm/setlists/helloween-5bd683a8.html"
+				},
+				"venue": {
+					"id": "33d63461",
+					"name": "Sentrum Scene",
+					"city": {
+						"id": "6942479",
+						"name": "Oslo",
+						"state": "Oslo",
+						"stateCode": "12",
+						"coords": {
+							"lat": 59.912697157616,
+							"long": 10.7413673400879
+						},
+						"country": {
+							"code": "NO",
+							"name": "Norway"
+						}
+					},
+					"url": "https://www.setlist.fm/venue/sentrum-scene-oslo-norway-33d63461.html"
+				},
+				"tour": {
+					"name": "United Forces 2022-2023"
+				},
+				"sets": {
+					"set": [
+						{
+							"song": [
+								{
+									"name": "Orbit",
+									"tape": true
+								},
+								{
+									"name": "Skyfall"
+								},
+								{
+									"name": "Eagle Fly Free"
+								},
+								{
+									"name": "Mass Pollution"
+								},
+								{
+									"name": "Future World",
+									"info": "preceded by \"Trouble\" by Elvis Presley snippet"
+								},
+								{
+									"name": "Power"
+								},
+								{
+									"name": "Walls Of Jericho",
+									"tape": true
+								},
+								{
+									"name": "Metal Invaders / Victim of Fate / Gorgar / Ride the Sky"
+								},
+								{
+									"name": "Heavy Metal (Is the Law)"
+								},
+								{
+									"name": "Forever and One (Neverland)"
+								},
+								{
+									"name": "Guitar Solo",
+									"info": "Sascha Gerstner"
+								},
+								{
+									"name": "Best Time"
+								},
+								{
+									"name": "Dr. Stein"
+								},
+								{
+									"name": "How Many Tears"
+								}
+							]
+						},
+						{
+							"encore": 1,
+							"song": [
+								{
+									"name": "Keeper of the Seven Keys"
+								}
+							]
+						},
+						{
+							"encore": 2,
+							"song": [
+								{
+									"name": "Drum Solo"
+								},
+								{
+									"name": "I Want Out"
+								}
+							]
+						}
+					]
+				},
+				"url": "https://www.setlist.fm/setlist/helloween/2023/sentrum-scene-oslo-norway-73a2ca6d.html"
+			},
+			{
+				"id": "2ba2d462",
+				"versionId": "g6386aa0b",
+				"eventDate": "09-09-2023",
+				"lastUpdated": "2023-09-12T04:50:16.959+0000",
+				"artist": {
+					"mbid": "765774a0-2060-469b-8b7d-612eea48579b",
+					"name": "Helloween",
+					"sortName": "Helloween",
+					"disambiguation": "German power metal band",
+					"url": "https://www.setlist.fm/setlists/helloween-5bd683a8.html"
+				},
+				"venue": {
+					"id": "53d51bed",
+					"name": "Partille Arena",
+					"city": {
+						"id": "2684395",
+						"name": "Partille",
+						"state": "Västra Götaland County",
+						"stateCode": "28",
+						"coords": {
+							"lat": 57.7394983956665,
+							"long": 12.1064186096191
+						},
+						"country": {
+							"code": "SE",
+							"name": "Sweden"
+						}
+					},
+					"url": "https://www.setlist.fm/venue/partille-arena-partille-sweden-53d51bed.html"
+				},
+				"tour": {
+					"name": "United Forces 2022-2023"
+				},
+				"sets": {
+					"set": [
+						{
+							"song": [
+								{
+									"name": "Orbit",
+									"tape": true
+								},
+								{
+									"name": "Skyfall"
+								},
+								{
+									"name": "Eagle Fly Free"
+								},
+								{
+									"name": "Mass Pollution"
+								},
+								{
+									"name": "Future World",
+									"info": "preceded by \"Trouble\" by Elvis Presley snippet"
+								},
+								{
+									"name": "Power"
+								},
+								{
+									"name": "Save Us"
+								},
+								{
+									"name": "Walls Of Jericho",
+									"tape": true
+								},
+								{
+									"name": "Metal Invaders / Victim of Fate / Gorgar / Ride the Sky"
+								},
+								{
+									"name": "Heavy Metal (Is the Law)"
+								},
+								{
+									"name": "Forever and One (Neverland)"
+								},
+								{
+									"name": "Guitar Solo",
+									"info": "Sascha Gerstner"
+								},
+								{
+									"name": "Best Time"
+								},
+								{
+									"name": "Dr. Stein"
+								},
+								{
+									"name": "How Many Tears"
+								}
+							]
+						},
+						{
+							"encore": 1,
+							"song": [
+								{
+									"name": "Keeper of the Seven Keys"
+								}
+							]
+						},
+						{
+							"encore": 2,
+							"song": [
+								{
+									"name": "Drum Solo",
+									"info": "Dani Löble"
+								},
+								{
+									"name": "I Want Out"
+								}
+							]
+						}
+					]
+				},
+				"url": "https://www.setlist.fm/setlist/helloween/2023/partille-arena-partille-sweden-2ba2d462.html"
+			},
+			{
+				"id": "5ba29fec",
+				"versionId": "g23991487",
+				"eventDate": "03-09-2023",
+				"lastUpdated": "2023-09-08T09:14:02.813+0000",
+				"artist": {
+					"mbid": "765774a0-2060-469b-8b7d-612eea48579b",
+					"name": "Helloween",
+					"sortName": "Helloween",
+					"disambiguation": "German power metal band",
+					"url": "https://www.setlist.fm/setlists/helloween-5bd683a8.html"
+				},
+				"venue": {
+					"id": "4bd71b36",
+					"name": "Sant Jordi Club",
+					"city": {
+						"id": "3128760",
+						"name": "Barcelona",
+						"state": "Catalonia",
+						"stateCode": "56",
+						"coords": {
+							"lat": 41.3887868890716,
+							"long": 2.15898513793945
+						},
+						"country": {
+							"code": "ES",
+							"name": "Spain"
+						}
+					},
+					"url": "https://www.setlist.fm/venue/sant-jordi-club-barcelona-spain-4bd71b36.html"
+				},
+				"tour": {
+					"name": "United Forces 2022-2023"
+				},
+				"sets": {
+					"set": [
+						{
+							"song": [
+								{
+									"name": "Skyfall"
+								},
+								{
+									"name": "Eagle Fly Free"
+								},
+								{
+									"name": "Mass Pollution"
+								},
+								{
+									"name": "Future World",
+									"info": "Elvis Presley's Trouble snippet"
+								},
+								{
+									"name": "Power"
+								},
+								{
+									"name": "Save Us"
+								},
+								{
+									"name": "Walls Of Jericho",
+									"tape": true
+								},
+								{
+									"name": "Metal Invaders / Victim of Fate / Gorgar / Ride the Sky"
+								},
+								{
+									"name": "Heavy Metal (Is the Law)"
+								},
+								{
+									"name": "Forever and One (Neverland)"
+								},
+								{
+									"name": "Best Time"
+								},
+								{
+									"name": "Dr. Stein"
+								},
+								{
+									"name": "How Many Tears"
+								}
+							]
+						},
+						{
+							"encore": 1,
+							"song": [
+								{
+									"name": "Perfect Gentleman"
+								},
+								{
+									"name": "Keeper of the Seven Keys"
+								}
+							]
+						},
+						{
+							"encore": 2,
+							"song": [
+								{
+									"name": "Drum Solo"
+								},
+								{
+									"name": "I Want Out"
+								}
+							]
+						}
+					]
+				},
+				"url": "https://www.setlist.fm/setlist/helloween/2023/sant-jordi-club-barcelona-spain-5ba29fec.html"
+			},
+			{
+				"id": "ba2adea",
+				"versionId": "g3399c469",
+				"eventDate": "02-09-2023",
+				"lastUpdated": "2023-09-06T14:48:43.331+0000",
+				"artist": {
+					"mbid": "765774a0-2060-469b-8b7d-612eea48579b",
+					"name": "Helloween",
+					"sortName": "Helloween",
+					"disambiguation": "German power metal band",
+					"url": "https://www.setlist.fm/setlists/helloween-5bd683a8.html"
+				},
+				"venue": {
+					"id": "2bd5009a",
+					"name": "WiZink Center",
+					"city": {
+						"id": "3117735",
+						"name": "Madrid",
+						"state": "Autonomous Region of Madrid",
+						"stateCode": "29",
+						"coords": {
+							"lat": 40.4165020941502,
+							"long": -3.70256423950195
+						},
+						"country": {
+							"code": "ES",
+							"name": "Spain"
+						}
+					},
+					"url": "https://www.setlist.fm/venue/wizink-center-madrid-spain-2bd5009a.html"
+				},
+				"tour": {
+					"name": "United Forces 2022-2023"
+				},
+				"sets": {
+					"set": [
+						{
+							"song": [
+								{
+									"name": "Orbit",
+									"tape": true
+								},
+								{
+									"name": "Skyfall"
+								},
+								{
+									"name": "Eagle Fly Free"
+								},
+								{
+									"name": "Mass Pollution"
+								},
+								{
+									"name": "Future World"
+								},
+								{
+									"name": "Power"
+								},
+								{
+									"name": "Save Us"
+								},
+								{
+									"name": "Walls Of Jericho",
+									"tape": true
+								},
+								{
+									"name": "Metal Invaders / Victim of Fate / Gorgar / Ride the Sky"
+								},
+								{
+									"name": "Heavy Metal (Is the Law)"
+								},
+								{
+									"name": "Forever and One (Neverland)"
+								},
+								{
+									"name": "Guitar Solo",
+									"info": "Sascha Gerstner"
+								},
+								{
+									"name": "Best Time"
+								},
+								{
+									"name": "Dr. Stein"
+								},
+								{
+									"name": "How Many Tears"
+								}
+							]
+						},
+						{
+							"encore": 1,
+							"song": [
+								{
+									"name": "Perfect Gentleman"
+								},
+								{
+									"name": "Keeper of the Seven Keys"
+								}
+							]
+						},
+						{
+							"encore": 2,
+							"song": [
+								{
+									"name": "Drum Solo"
+								},
+								{
+									"name": "I Want Out"
+								},
+								{
+									"name": "For the Love of a Princess",
+									"tape": true,
+									"cover": {
+										"mbid": "dfb5a4a9-7882-4c7e-a1cd-643a74123f28",
+										"name": "Horner",
+										"sortName": "Horner",
+										"disambiguation": "",
+										"url": "https://www.setlist.fm/setlists/horner-33df50e5.html"
+									}
+								}
+							]
+						}
+					]
+				},
+				"url": "https://www.setlist.fm/setlist/helloween/2023/wizink-center-madrid-spain-ba2adea.html"
+			},
+			{
+				"id": "73a416a5",
+				"versionId": "g339a348d",
+				"eventDate": "05-08-2023",
+				"lastUpdated": "2023-08-14T16:32:52.994+0000",
+				"artist": {
+					"mbid": "765774a0-2060-469b-8b7d-612eea48579b",
+					"name": "Helloween",
+					"sortName": "Helloween",
+					"disambiguation": "German power metal band",
+					"url": "https://www.setlist.fm/setlists/helloween-5bd683a8.html"
+				},
+				"venue": {
+					"id": "13d61599",
+					"name": "Steel Arena",
+					"city": {
+						"id": "724443",
+						"name": "Košice",
+						"state": "Košický kraj",
+						"stateCode": "03",
+						"coords": {
+							"lat": 48.717,
+							"long": 21.25
+						},
+						"country": {
+							"code": "SK",
+							"name": "Slovakia"
+						}
+					},
+					"url": "https://www.setlist.fm/venue/steel-arena-kosice-slovakia-13d61599.html"
+				},
+				"tour": {
+					"name": "United Forces 2022-2023"
+				},
+				"sets": {
+					"set": [
+						{
+							"song": [
+								{
+									"name": "Halloween",
+									"tape": true,
+									"info": "Unarmed version"
+								},
+								{
+									"name": "Orbit",
+									"tape": true
+								},
+								{
+									"name": "Skyfall"
+								},
+								{
+									"name": "Eagle Fly Free"
+								},
+								{
+									"name": "Mass Pollution"
+								},
+								{
+									"name": "Future World"
+								},
+								{
+									"name": "Power"
+								},
+								{
+									"name": "Save Us"
+								},
+								{
+									"name": "Walls Of Jericho",
+									"tape": true
+								},
+								{
+									"name": "Metal Invaders / Victim of Fate / Gorgar / Ride the Sky",
+									"info": "Kai Hansen medley"
+								},
+								{
+									"name": "Heavy Metal (Is the Law)"
+								},
+								{
+									"name": "Forever and One (Neverland)"
+								},
+								{
+									"name": "Guitar Solo",
+									"info": "Sasha Gerstner"
+								},
+								{
+									"name": "Best Time"
+								},
+								{
+									"name": "Dr. Stein"
+								},
+								{
+									"name": "Drum Solo",
+									"info": "Dani Löble"
+								},
+								{
+									"name": "How Many Tears"
+								}
+							]
+						},
+						{
+							"encore": 1,
+							"song": [
+								{
+									"name": "Perfect Gentleman"
+								},
+								{
+									"name": "Keeper of the Seven Keys"
+								}
+							]
+						},
+						{
+							"encore": 2,
+							"song": [
+								{
+									"name": "Invitation",
+									"tape": true
+								},
+								{
+									"name": "I Want Out"
+								},
+								{
+									"name": "For the Love of a Princess",
+									"tape": true,
+									"cover": {
+										"mbid": "679ec43c-bc04-4bb0-b619-2da702a214ba",
+										"name": "James Horner",
+										"sortName": "Horner, James",
+										"disambiguation": "American score composer",
+										"url": "https://www.setlist.fm/setlists/james-horner-bd6b93e.html"
+									}
+								}
+							]
+						}
+					]
+				},
+				"url": "https://www.setlist.fm/setlist/helloween/2023/steel-arena-kosice-slovakia-73a416a5.html"
+			},
+			{
+				"id": "73a42ed9",
+				"versionId": "g439debc7",
+				"eventDate": "03-08-2023",
+				"lastUpdated": "2023-08-04T02:04:33.132+0000",
+				"artist": {
+					"mbid": "765774a0-2060-469b-8b7d-612eea48579b",
+					"name": "Helloween",
+					"sortName": "Helloween",
+					"disambiguation": "German power metal band",
+					"url": "https://www.setlist.fm/setlists/helloween-5bd683a8.html"
+				},
+				"venue": {
+					"id": "7bd21a2c",
+					"name": "Hauptstrasse",
+					"city": {
+						"id": "2815623",
+						"name": "Wacken",
+						"state": "Schleswig-Holstein",
+						"stateCode": "10",
+						"coords": {
+							"lat": 54.021,
+							"long": 9.376
+						},
+						"country": {
+							"code": "DE",
+							"name": "Germany"
+						}
+					},
+					"url": "https://www.setlist.fm/venue/hauptstrasse-wacken-germany-7bd21a2c.html"
+				},
+				"tour": {
+					"name": "United Forces 2022-2023"
+				},
+				"sets": {
+					"set": [
+						{
+							"song": [
+								{
+									"name": "Orbit",
+									"tape": true
+								},
+								{
+									"name": "Skyfall"
+								},
+								{
+									"name": "Eagle Fly Free"
+								},
+								{
+									"name": "Mass Pollution"
+								},
+								{
+									"name": "Future World"
+								},
+								{
+									"name": "Power"
+								},
+								{
+									"name": "Save Us"
+								},
+								{
+									"name": "Walls of Jericho",
+									"tape": true
+								},
+								{
+									"name": "Metal Invaders / Victim of Fate / Gorgar / Ride the Sky"
+								},
+								{
+									"name": "Heavy Metal (Is the Law)"
+								},
+								{
+									"name": "Forever and One (Neverland)"
+								},
+								{
+									"name": "Guitar Solo",
+									"info": "Sascha Gerstner"
+								},
+								{
+									"name": "Best Time"
+								},
+								{
+									"name": "Dr. Stein"
+								},
+								{
+									"name": "Drum Solo",
+									"info": "Dani Löble"
+								},
+								{
+									"name": "How Many Tears"
+								}
+							]
+						},
+						{
+							"encore": 1,
+							"song": [
+								{
+									"name": "Perfect Gentleman"
+								},
+								{
+									"name": "Keeper of the Seven Keys"
+								}
+							]
+						},
+						{
+							"encore": 2,
+							"song": [
+								{
+									"name": "Invitation",
+									"tape": true
+								},
+								{
+									"name": "I Want Out"
+								},
+								{
+									"name": "For the Love of a Princess",
+									"tape": true,
+									"cover": {
+										"mbid": "679ec43c-bc04-4bb0-b619-2da702a214ba",
+										"name": "James Horner",
+										"sortName": "Horner, James",
+										"disambiguation": "American score composer",
+										"url": "https://www.setlist.fm/setlists/james-horner-bd6b93e.html"
+									}
+								}
+							]
+						}
+					]
+				},
+				"url": "https://www.setlist.fm/setlist/helloween/2023/hauptstrasse-wacken-germany-73a42ed9.html"
+			},
+			{
+				"id": "ba43db6",
+				"versionId": "g439debeb",
+				"eventDate": "01-08-2023",
+				"lastUpdated": "2023-08-04T01:59:07.105+0000",
+				"artist": {
+					"mbid": "765774a0-2060-469b-8b7d-612eea48579b",
+					"name": "Helloween",
+					"sortName": "Helloween",
+					"disambiguation": "German power metal band",
+					"url": "https://www.setlist.fm/setlists/helloween-5bd683a8.html"
+				},
+				"venue": {
+					"id": "2bd00c0e",
+					"name": "Vista Park",
+					"city": {
+						"id": "3189075",
+						"name": "Velenje",
+						"stateCode": "00",
+						"coords": {
+							"lat": 46.3591667,
+							"long": 15.1102778
+						},
+						"country": {
+							"code": "SI",
+							"name": "Slovenia"
+						}
+					},
+					"url": "https://www.setlist.fm/venue/vista-park-velenje-slovenia-2bd00c0e.html"
+				},
+				"tour": {
+					"name": "United Forces 2022-2023"
+				},
+				"sets": {
+					"set": [
+						{
+							"song": [
+								{
+									"name": "Halloween",
+									"tape": true,
+									"info": "Unarmed version"
+								},
+								{
+									"name": "Dr. Stein"
+								},
+								{
+									"name": "Eagle Fly Free"
+								},
+								{
+									"name": "Power"
+								},
+								{
+									"name": "Ride the Sky",
+									"info": "part."
+								},
+								{
+									"name": "Heavy Metal (Is the Law)"
+								},
+								{
+									"name": "Forever and One (Neverland)"
+								},
+								{
+									"name": "Guitar Solo",
+									"info": "Sascha Gerstner"
+								},
+								{
+									"name": "Best Time"
+								},
+								{
+									"name": "Perfect Gentleman"
+								},
+								{
+									"name": "Future World"
+								},
+								{
+									"name": "Drum Solo"
+								},
+								{
+									"name": "How Many Tears"
+								}
+							]
+						},
+						{
+							"encore": 1,
+							"song": [
+								{
+									"name": "I Want Out"
+								},
+								{
+									"name": "For the Love of a Princess",
+									"tape": true,
+									"cover": {
+										"mbid": "679ec43c-bc04-4bb0-b619-2da702a214ba",
+										"name": "James Horner",
+										"sortName": "Horner, James",
+										"disambiguation": "American score composer",
+										"url": "https://www.setlist.fm/setlists/james-horner-bd6b93e.html"
+									}
+								}
+							]
+						}
+					]
+				},
+				"info": "gig under heavy rain",
+				"url": "https://www.setlist.fm/setlist/helloween/2023/vista-park-velenje-slovenia-ba43db6.html"
+			},
+			{
+				"id": "13a4dd85",
+				"versionId": "gb9d01be",
+				"eventDate": "29-07-2023",
+				"lastUpdated": "2023-08-07T16:02:26.134+0000",
+				"artist": {
+					"mbid": "765774a0-2060-469b-8b7d-612eea48579b",
+					"name": "Helloween",
+					"sortName": "Helloween",
+					"disambiguation": "German power metal band",
+					"url": "https://www.setlist.fm/setlists/helloween-5bd683a8.html"
+				},
+				"venue": {
+					"id": "2bd2b4c2",
+					"name": "Új Váralja sor",
+					"city": {
+						"id": "3044774",
+						"name": "Székesfehérvár",
+						"state": "Fejér",
+						"stateCode": "08",
+						"coords": {
+							"lat": 47.1899457768574,
+							"long": 18.4103393554688
+						},
+						"country": {
+							"code": "HU",
+							"name": "Hungary"
+						}
+					},
+					"url": "https://www.setlist.fm/venue/uj-varalja-sor-szekesfehervar-hungary-2bd2b4c2.html"
+				},
+				"tour": {
+					"name": "United Forces 2022-2023"
+				},
+				"sets": {
+					"set": [
+						{
+							"song": [
+								{
+									"name": "Halloween",
+									"tape": true,
+									"info": "\"Unarmed\" version"
+								},
+								{
+									"name": "Orbit",
+									"tape": true
+								},
+								{
+									"name": "Skyfall"
+								},
+								{
+									"name": "Eagle Fly Free"
+								},
+								{
+									"name": "Mass Pollution"
+								},
+								{
+									"name": "Future World"
+								},
+								{
+									"name": "Power"
+								},
+								{
+									"name": "Save Us"
+								},
+								{
+									"name": "Walls of Jericho",
+									"tape": true
+								},
+								{
+									"name": "Metal Invaders / Victim of Fate / Gorgar / Ride the Sky"
+								},
+								{
+									"name": "Heavy Metal (Is the Law)"
+								},
+								{
+									"name": "Forever and One (Neverland)"
+								},
+								{
+									"name": "Guitar Solo",
+									"info": "Sascha Gerstner"
+								},
+								{
+									"name": "Best Time"
+								},
+								{
+									"name": "Dr. Stein"
+								},
+								{
+									"name": "How Many Tears"
+								}
+							]
+						},
+						{
+							"encore": 1,
+							"song": [
+								{
+									"name": "Perfect Gentleman"
+								},
+								{
+									"name": "Keeper of the Seven Keys"
+								}
+							]
+						},
+						{
+							"encore": 2,
+							"song": [
+								{
+									"name": "Invitation",
+									"tape": true
+								},
+								{
+									"name": "I Want Out"
+								},
+								{
+									"name": "For the Love of a Princess",
+									"tape": true,
+									"cover": {
+										"mbid": "679ec43c-bc04-4bb0-b619-2da702a214ba",
+										"name": "James Horner",
+										"sortName": "Horner, James",
+										"disambiguation": "American score composer",
+										"url": "https://www.setlist.fm/setlists/james-horner-bd6b93e.html"
+									}
+								}
+							]
+						}
+					]
+				},
+				"url": "https://www.setlist.fm/setlist/helloween/2023/uj-varalja-sor-szekesfehervar-hungary-13a4dd85.html"
+			},
+			{
+				"id": "33a784b9",
+				"versionId": "g4b91031a",
+				"eventDate": "02-07-2023",
+				"lastUpdated": "2023-07-02T21:00:28.237+0000",
+				"artist": {
+					"mbid": "765774a0-2060-469b-8b7d-612eea48579b",
+					"name": "Helloween",
+					"sortName": "Helloween",
+					"disambiguation": "German power metal band",
+					"url": "https://www.setlist.fm/setlists/helloween-5bd683a8.html"
+				},
+				"venue": {
+					"id": "73d54ae9",
+					"name": "Midalidare Estate",
+					"city": {
+						"id": "729004",
+						"name": "Mogilovo",
+						"state": "Stara Zagora",
+						"stateCode": "59",
+						"coords": {
+							"lat": 42.33333,
+							"long": 25.4
+						},
+						"country": {
+							"code": "BG",
+							"name": "Bulgaria"
+						}
+					},
+					"url": "https://www.setlist.fm/venue/midalidare-estate-mogilovo-bulgaria-73d54ae9.html"
+				},
+				"tour": {
+					"name": "United Forces 2022-2023"
+				},
+				"sets": {
+					"set": [
+						{
+							"song": [
+								{
+									"name": "Skyfall"
+								},
+								{
+									"name": "Eagle Fly Free"
+								},
+								{
+									"name": "Mass Pollution"
+								},
+								{
+									"name": "Future World"
+								},
+								{
+									"name": "Power"
+								},
+								{
+									"name": "I'm Alive"
+								},
+								{
+									"name": "Metal Invaders / Victim of Fate / Gorgar / Ride the Sky"
+								},
+								{
+									"name": "Heavy Metal (Is the Law)"
+								},
+								{
+									"name": "Forever and One (Neverland)"
+								},
+								{
+									"name": "Guitar Solo"
+								},
+								{
+									"name": "Best Time"
+								},
+								{
+									"name": "Dr. Stein"
+								},
+								{
+									"name": "How Many Tears"
+								}
+							]
+						},
+						{
+							"encore": 1,
+							"song": [
+								{
+									"name": "Perfect Gentleman"
+								},
+								{
+									"name": "Keeper of the Seven Keys"
+								}
+							]
+						},
+						{
+							"encore": 2,
+							"song": [
+								{
+									"name": "I Want Out"
+								}
+							]
+						}
+					]
+				},
+				"url": "https://www.setlist.fm/setlist/helloween/2023/midalidare-estate-mogilovo-bulgaria-33a784b9.html"
+			},
+			{
+				"id": "6ba66e1e",
+				"versionId": "g63907aa7",
+				"eventDate": "23-06-2023",
+				"lastUpdated": "2023-06-24T09:12:27.697+0000",
+				"artist": {
+					"mbid": "765774a0-2060-469b-8b7d-612eea48579b",
+					"name": "Helloween",
+					"sortName": "Helloween",
+					"disambiguation": "German power metal band",
+					"url": "https://www.setlist.fm/setlists/helloween-5bd683a8.html"
+				},
+				"venue": {
+					"id": "73d6d635",
+					"name": "Parque de la Cuesta del Batel",
+					"city": {
+						"id": "2520058",
+						"name": "Cartagena",
+						"state": "Murcia",
+						"stateCode": "31",
+						"coords": {
+							"lat": 37.6,
+							"long": -0.9833333
+						},
+						"country": {
+							"code": "ES",
+							"name": "Spain"
+						}
+					},
+					"url": "https://www.setlist.fm/venue/parque-de-la-cuesta-del-batel-cartagena-spain-73d6d635.html"
+				},
+				"tour": {
+					"name": "United Forces 2022-2023"
+				},
+				"sets": {
+					"set": [
+						{
+							"song": [
+								{
+									"name": "Skyfall"
+								},
+								{
+									"name": "Eagle Fly Free"
+								},
+								{
+									"name": "Mass Pollution"
+								},
+								{
+									"name": "Future World"
+								},
+								{
+									"name": "Power"
+								},
+								{
+									"name": "Save Us"
+								},
+								{
+									"name": "Metal Invaders / Victim of Fate / Gorgar / Ride the Sky"
+								},
+								{
+									"name": "Heavy Metal (Is the Law)"
+								},
+								{
+									"name": "Forever and One (Neverland)"
+								},
+								{
+									"name": "Guitar Solo"
+								},
+								{
+									"name": "Best Time"
+								},
+								{
+									"name": "Dr. Stein"
+								},
+								{
+									"name": "How Many Tears"
+								}
+							]
+						},
+						{
+							"encore": 1,
+							"song": [
+								{
+									"name": "Perfect Gentleman"
+								},
+								{
+									"name": "Keeper of the Seven Keys"
+								}
+							]
+						},
+						{
+							"encore": 2,
+							"song": [
+								{
+									"name": "I Want Out"
+								}
+							]
+						}
+					]
+				},
+				"url": "https://www.setlist.fm/setlist/helloween/2023/parque-de-la-cuesta-del-batel-cartagena-spain-6ba66e1e.html"
+			},
+			{
+				"id": "1ba629fc",
+				"versionId": "g539f2f1d",
+				"eventDate": "17-06-2023",
+				"lastUpdated": "2023-07-18T17:21:09.053+0000",
+				"artist": {
+					"mbid": "765774a0-2060-469b-8b7d-612eea48579b",
+					"name": "Helloween",
+					"sortName": "Helloween",
+					"disambiguation": "German power metal band",
+					"url": "https://www.setlist.fm/setlists/helloween-5bd683a8.html"
+				},
+				"venue": {
+					"id": "73d4ea3d",
+					"name": "Plateia Nerou",
+					"city": {
+						"id": "255274",
+						"name": "Piraeus",
+						"coords": {
+							"lat": 37.9474464019929,
+							"long": 23.6370849609375
+						},
+						"country": {
+							"code": "GR",
+							"name": "Greece"
+						}
+					},
+					"url": "https://www.setlist.fm/venue/plateia-nerou-piraeus-greece-73d4ea3d.html"
+				},
+				"tour": {
+					"name": "United Forces 2022-2023"
+				},
+				"sets": {
+					"set": [
+						{
+							"song": [
+								{
+									"name": "Halloween",
+									"tape": true
+								},
+								{
+									"name": "Orbit",
+									"tape": true
+								},
+								{
+									"name": "Skyfall"
+								},
+								{
+									"name": "Eagle Fly Free"
+								},
+								{
+									"name": "Mass Pollution"
+								},
+								{
+									"name": "Future World"
+								},
+								{
+									"name": "Power"
+								},
+								{
+									"name": "I'm Alive"
+								},
+								{
+									"name": "Walls of Jericho",
+									"tape": true
+								},
+								{
+									"name": "Metal Invaders / Victim of Fate / Gorgar / Ride the Sky"
+								},
+								{
+									"name": "Heavy Metal (Is the Law)"
+								},
+								{
+									"name": "Forever and One (Neverland)"
+								},
+								{
+									"name": "Guitar Solo",
+									"info": "Sascha Gertsner"
+								},
+								{
+									"name": "Best Time"
+								},
+								{
+									"name": "Dr. Stein"
+								},
+								{
+									"name": "How Many Tears"
+								}
+							]
+						},
+						{
+							"encore": 1,
+							"song": [
+								{
+									"name": "Perfect Gentleman"
+								},
+								{
+									"name": "Keeper of the Seven Keys"
+								}
+							]
+						},
+						{
+							"encore": 2,
+							"song": [
+								{
+									"name": "I Want Out",
+									"info": "With an extented sing along"
+								},
+								{
+									"name": "For the Love of a Princess",
+									"tape": true,
+									"cover": {
+										"mbid": "679ec43c-bc04-4bb0-b619-2da702a214ba",
+										"name": "James Horner",
+										"sortName": "Horner, James",
+										"disambiguation": "American score composer",
+										"url": "https://www.setlist.fm/setlists/james-horner-bd6b93e.html"
+									}
+								}
+							]
+						}
+					]
+				},
+				"url": "https://www.setlist.fm/setlist/helloween/2023/plateia-nerou-piraeus-greece-1ba629fc.html"
+			},
+			{
+				"id": "43a6f7ef",
+				"versionId": "g43931b2b",
+				"eventDate": "10-06-2023",
+				"lastUpdated": "2023-06-14T23:37:55.058+0000",
+				"artist": {
+					"mbid": "765774a0-2060-469b-8b7d-612eea48579b",
+					"name": "Helloween",
+					"sortName": "Helloween",
+					"disambiguation": "German power metal band",
+					"url": "https://www.setlist.fm/setlists/helloween-5bd683a8.html"
+				},
+				"venue": {
+					"id": "7bd1faac",
+					"name": "IFEZA - Institución Ferial de Zamora",
+					"city": {
+						"id": "3104342",
+						"name": "Zamora",
+						"state": "Castille and León",
+						"stateCode": "55",
+						"coords": {
+							"lat": 41.5,
+							"long": -5.75
+						},
+						"country": {
+							"code": "ES",
+							"name": "Spain"
+						}
+					},
+					"url": "https://www.setlist.fm/venue/ifeza-institucion-ferial-de-zamora-zamora-spain-7bd1faac.html"
+				},
+				"tour": {
+					"name": "United Forces 2022-2023"
+				},
+				"sets": {
+					"set": [
+						{
+							"song": [
+								{
+									"name": "Halloween",
+									"tape": true
+								},
+								{
+									"name": "Orbit",
+									"tape": true
+								},
+								{
+									"name": "Skyfall"
+								},
+								{
+									"name": "Eagle Fly Free"
+								},
+								{
+									"name": "Mass Pollution"
+								},
+								{
+									"name": "Future World"
+								},
+								{
+									"name": "Power"
+								},
+								{
+									"name": "Save Us"
+								},
+								{
+									"name": "Metal Invaders / Victim of Fate / Gorgar / Ride the Sky"
+								},
+								{
+									"name": "Heavy Metal (Is the Law)"
+								},
+								{
+									"name": "Forever and One (Neverland)"
+								},
+								{
+									"name": "Guitar Solo"
+								},
+								{
+									"name": "Best Time"
+								},
+								{
+									"name": "Dr. Stein"
+								},
+								{
+									"name": "How Many Tears"
+								}
+							]
+						},
+						{
+							"encore": 1,
+							"song": [
+								{
+									"name": "Perfect Gentleman"
+								},
+								{
+									"name": "Keeper of the Seven Keys"
+								}
+							]
+						},
+						{
+							"encore": 2,
+							"song": [
+								{
+									"name": "I Want Out"
+								}
+							]
+						}
+					]
+				},
+				"url": "https://www.setlist.fm/setlist/helloween/2023/ifeza-institucion-ferial-de-zamora-zamora-spain-43a6f7ef.html"
+			},
+			{
+				"id": "73a6be65",
+				"versionId": "g4b931b36",
+				"eventDate": "03-06-2023",
+				"lastUpdated": "2023-06-14T23:37:09.892+0000",
+				"artist": {
+					"mbid": "765774a0-2060-469b-8b7d-612eea48579b",
+					"name": "Helloween",
+					"sortName": "Helloween",
+					"disambiguation": "German power metal band",
+					"url": "https://www.setlist.fm/setlists/helloween-5bd683a8.html"
+				},
+				"venue": {
+					"id": "63d63667",
+					"name": "The Warfield",
+					"city": {
+						"id": "5391959",
+						"name": "San Francisco",
+						"state": "California",
+						"stateCode": "CA",
+						"coords": {
+							"lat": 37.775,
+							"long": -122.419
+						},
+						"country": {
+							"code": "US",
+							"name": "United States"
+						}
+					},
+					"url": "https://www.setlist.fm/venue/the-warfield-san-francisco-ca-usa-63d63667.html"
+				},
+				"tour": {
+					"name": "United Forces 2022-2023"
+				},
+				"sets": {
+					"set": [
+						{
+							"song": [
+								{
+									"name": "Halloween",
+									"tape": true
+								},
+								{
+									"name": "Orbit",
+									"tape": true
+								},
+								{
+									"name": "Skyfall"
+								},
+								{
+									"name": "Eagle Fly Free"
+								},
+								{
+									"name": "Mass Pollution"
+								},
+								{
+									"name": "Future World"
+								},
+								{
+									"name": "Power"
+								},
+								{
+									"name": "Save Us"
+								},
+								{
+									"name": "Metal Invaders / Victim of Fate / Gorgar / Ride the Sky"
+								},
+								{
+									"name": "Heavy Metal (Is the Law)"
+								},
+								{
+									"name": "Forever and One (Neverland)"
+								},
+								{
+									"name": "Guitar Solo"
+								},
+								{
+									"name": "Best Time"
+								},
+								{
+									"name": "Dr. Stein"
+								},
+								{
+									"name": "How Many Tears"
+								}
+							]
+						},
+						{
+							"encore": 1,
+							"song": [
+								{
+									"name": "Perfect Gentleman"
+								},
+								{
+									"name": "Keeper of the Seven Keys"
+								}
+							]
+						},
+						{
+							"encore": 2,
+							"song": [
+								{
+									"name": "I Want Out"
+								}
+							]
+						}
+					]
+				},
+				"url": "https://www.setlist.fm/setlist/helloween/2023/the-warfield-san-francisco-ca-73a6be65.html"
+			},
+			{
+				"id": "53b94731",
+				"versionId": "g4392cfdb",
+				"eventDate": "02-06-2023",
+				"lastUpdated": "2023-06-04T07:03:08.911+0000",
+				"artist": {
+					"mbid": "765774a0-2060-469b-8b7d-612eea48579b",
+					"name": "Helloween",
+					"sortName": "Helloween",
+					"disambiguation": "German power metal band",
+					"url": "https://www.setlist.fm/setlists/helloween-5bd683a8.html"
+				},
+				"venue": {
+					"id": "23d0f42f",
+					"name": "YouTube Theater",
+					"city": {
+						"id": "5359488",
+						"name": "Inglewood",
+						"state": "California",
+						"stateCode": "CA",
+						"coords": {
+							"lat": 33.9616801,
+							"long": -118.3531311
+						},
+						"country": {
+							"code": "US",
+							"name": "United States"
+						}
+					},
+					"url": "https://www.setlist.fm/venue/youtube-theater-inglewood-ca-usa-23d0f42f.html"
+				},
+				"tour": {
+					"name": "United Forces 2022-2023"
+				},
+				"sets": {
+					"set": [
+						{
+							"song": [
+								{
+									"name": "Halloween",
+									"tape": true
+								},
+								{
+									"name": "Orbit",
+									"tape": true
+								},
+								{
+									"name": "Skyfall"
+								},
+								{
+									"name": "Eagle Fly Free"
+								},
+								{
+									"name": "Mass Pollution"
+								},
+								{
+									"name": "Future World"
+								},
+								{
+									"name": "Power"
+								},
+								{
+									"name": "Save Us"
+								},
+								{
+									"name": "Metal Invaders / Victim of Fate / Gorgar / Ride the Sky"
+								},
+								{
+									"name": "Heavy Metal (Is the Law)"
+								},
+								{
+									"name": "Forever and One (Neverland)"
+								},
+								{
+									"name": "Guitar Solo",
+									"info": "Sascha Gerstner"
+								},
+								{
+									"name": "Best Time",
+									"with": {
+										"mbid": "205ee1a9-83d5-4df6-aef0-23e00d5bec54",
+										"name": "Chris Jericho",
+										"sortName": "Jericho, Chris",
+										"disambiguation": "",
+										"url": "https://www.setlist.fm/setlists/chris-jericho-2bd66052.html"
+									}
+								},
+								{
+									"name": "Dr. Stein"
+								},
+								{
+									"name": "How Many Tears"
+								}
+							]
+						},
+						{
+							"encore": 1,
+							"song": [
+								{
+									"name": "Perfect Gentleman"
+								},
+								{
+									"name": "Keeper of the Seven Keys"
+								}
+							]
+						},
+						{
+							"encore": 2,
+							"song": [
+								{
+									"name": "I Want Out"
+								},
+								{
+									"name": "For the Love of a Princess",
+									"tape": true,
+									"cover": {
+										"mbid": "679ec43c-bc04-4bb0-b619-2da702a214ba",
+										"name": "James Horner",
+										"sortName": "Horner, James",
+										"disambiguation": "American score composer",
+										"url": "https://www.setlist.fm/setlists/james-horner-bd6b93e.html"
+									}
+								}
+							]
+						}
+					]
+				},
+				"url": "https://www.setlist.fm/setlist/helloween/2023/youtube-theater-inglewood-ca-53b94731.html"
+			},
+			{
+				"id": "6bb952ce",
+				"versionId": "g392019f",
+				"eventDate": "01-06-2023",
+				"lastUpdated": "2023-06-06T18:38:21.167+0000",
+				"artist": {
+					"mbid": "765774a0-2060-469b-8b7d-612eea48579b",
+					"name": "Helloween",
+					"sortName": "Helloween",
+					"disambiguation": "German power metal band",
+					"url": "https://www.setlist.fm/setlists/helloween-5bd683a8.html"
+				},
+				"venue": {
+					"id": "53d4e721",
+					"name": "Brooklyn Bowl",
+					"city": {
+						"id": "5506956",
+						"name": "Las Vegas",
+						"state": "Nevada",
+						"stateCode": "NV",
+						"coords": {
+							"lat": 36.1749705,
+							"long": -115.137223
+						},
+						"country": {
+							"code": "US",
+							"name": "United States"
+						}
+					},
+					"url": "https://www.setlist.fm/venue/brooklyn-bowl-las-vegas-nv-usa-53d4e721.html"
+				},
+				"tour": {
+					"name": "United Forces 2022-2023"
+				},
+				"sets": {
+					"set": [
+						{
+							"song": [
+								{
+									"name": "Halloween",
+									"tape": true
+								},
+								{
+									"name": "Orbit",
+									"tape": true
+								},
+								{
+									"name": "Skyfall"
+								},
+								{
+									"name": "Eagle Fly Free"
+								},
+								{
+									"name": "Mass Pollution"
+								},
+								{
+									"name": "Future World"
+								},
+								{
+									"name": "Power"
+								},
+								{
+									"name": "Save Us"
+								},
+								{
+									"name": "Metal Invaders / Victim of Fate / Gorgar / Ride the Sky"
+								},
+								{
+									"name": "Heavy Metal (Is the Law)"
+								},
+								{
+									"name": "Forever and One (Neverland)"
+								},
+								{
+									"name": "Guitar Solo",
+									"info": "(Sascha Gerstner)"
+								},
+								{
+									"name": "Best Time"
+								},
+								{
+									"name": "Dr. Stein"
+								},
+								{
+									"name": "How Many Tears"
+								}
+							]
+						},
+						{
+							"encore": 1,
+							"song": [
+								{
+									"name": "Perfect Gentleman"
+								},
+								{
+									"name": "Keeper of the Seven Keys"
+								}
+							]
+						},
+						{
+							"encore": 2,
+							"song": [
+								{
+									"name": "I Want Out"
+								}
+							]
+						}
+					]
+				},
+				"url": "https://www.setlist.fm/setlist/helloween/2023/brooklyn-bowl-las-vegas-nv-6bb952ce.html"
+			},
+			{
+				"id": "bb959ea",
+				"versionId": "g4b931b32",
+				"eventDate": "30-05-2023",
+				"lastUpdated": "2023-06-14T23:36:43.884+0000",
+				"artist": {
+					"mbid": "765774a0-2060-469b-8b7d-612eea48579b",
+					"name": "Helloween",
+					"sortName": "Helloween",
+					"disambiguation": "German power metal band",
+					"url": "https://www.setlist.fm/setlists/helloween-5bd683a8.html"
+				},
+				"venue": {
+					"id": "6bd63666",
+					"name": "Ogden Theatre",
+					"city": {
+						"id": "5419384",
+						"name": "Denver",
+						"state": "Colorado",
+						"stateCode": "CO",
+						"coords": {
+							"lat": 39.7391536,
+							"long": -104.9847034
+						},
+						"country": {
+							"code": "US",
+							"name": "United States"
+						}
+					},
+					"url": "https://www.setlist.fm/venue/ogden-theatre-denver-co-usa-6bd63666.html"
+				},
+				"tour": {
+					"name": "United Forces 2022-2023"
+				},
+				"sets": {
+					"set": [
+						{
+							"song": [
+								{
+									"name": "Halloween",
+									"tape": true
+								},
+								{
+									"name": "Orbit",
+									"tape": true
+								},
+								{
+									"name": "Skyfall"
+								},
+								{
+									"name": "Eagle Fly Free"
+								},
+								{
+									"name": "Mass Pollution"
+								},
+								{
+									"name": "Future World"
+								},
+								{
+									"name": "Power"
+								},
+								{
+									"name": "Save Us"
+								},
+								{
+									"name": "Metal Invaders / Victim of Fate / Gorgar / Ride the Sky"
+								},
+								{
+									"name": "Heavy Metal (Is the Law)"
+								},
+								{
+									"name": "Forever and One (Neverland)"
+								},
+								{
+									"name": "Guitar Solo",
+									"info": "Sascha Gerstner"
+								},
+								{
+									"name": "Best Time"
+								},
+								{
+									"name": "Dr. Stein"
+								},
+								{
+									"name": "How Many Tears"
+								}
+							]
+						},
+						{
+							"encore": 1,
+							"song": [
+								{
+									"name": "Perfect Gentleman"
+								},
+								{
+									"name": "Keeper of the Seven Keys"
+								}
+							]
+						},
+						{
+							"encore": 2,
+							"song": [
+								{
+									"name": "I Want Out"
+								}
+							]
+						}
+					]
+				},
+				"url": "https://www.setlist.fm/setlist/helloween/2023/ogden-theatre-denver-co-bb959ea.html"
+			},
+			{
+				"id": "3b901fb",
+				"versionId": "g4b929b86",
+				"eventDate": "27-05-2023",
+				"lastUpdated": "2023-06-01T12:06:53.404+0000",
+				"artist": {
+					"mbid": "765774a0-2060-469b-8b7d-612eea48579b",
+					"name": "Helloween",
+					"sortName": "Helloween",
+					"disambiguation": "German power metal band",
+					"url": "https://www.setlist.fm/setlists/helloween-5bd683a8.html"
+				},
+				"venue": {
+					"id": "73d32e29",
+					"name": "Fillmore Minneapolis",
+					"city": {
+						"id": "5037649",
+						"name": "Minneapolis",
+						"state": "Minnesota",
+						"stateCode": "MN",
+						"coords": {
+							"lat": 44.9799654,
+							"long": -93.2638361
+						},
+						"country": {
+							"code": "US",
+							"name": "United States"
+						}
+					},
+					"url": "https://www.setlist.fm/venue/fillmore-minneapolis-minneapolis-mn-usa-73d32e29.html"
+				},
+				"tour": {
+					"name": "United Forces 2022-2023"
+				},
+				"sets": {
+					"set": [
+						{
+							"song": [
+								{
+									"name": "Halloween",
+									"tape": true
+								},
+								{
+									"name": "Orbit",
+									"tape": true
+								},
+								{
+									"name": "Skyfall"
+								},
+								{
+									"name": "Eagle Fly Free"
+								},
+								{
+									"name": "Mass Pollution"
+								},
+								{
+									"name": "Future World"
+								},
+								{
+									"name": "Power"
+								},
+								{
+									"name": "Save Us"
+								},
+								{
+									"name": "Metal Invaders / Victim of Fate / Gorgar / Ride the Sky"
+								},
+								{
+									"name": "Heavy Metal (Is the Law)"
+								},
+								{
+									"name": "Forever and One (Neverland)"
+								},
+								{
+									"name": "Guitar Solo",
+									"info": "Sascha Gerstner"
+								},
+								{
+									"name": "Best Time"
+								},
+								{
+									"name": "Dr. Stein"
+								},
+								{
+									"name": "How Many Tears"
+								}
+							]
+						},
+						{
+							"encore": 1,
+							"song": [
+								{
+									"name": "Perfect Gentleman"
+								},
+								{
+									"name": "Keeper of the Seven Keys"
+								}
+							]
+						},
+						{
+							"encore": 2,
+							"song": [
+								{
+									"name": "I Want Out"
+								}
+							]
+						}
+					]
+				},
+				"url": "https://www.setlist.fm/setlist/helloween/2023/fillmore-minneapolis-minneapolis-mn-3b901fb.html"
+			}
+		]
+	}
+}
