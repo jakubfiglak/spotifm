@@ -16,7 +16,7 @@
 	}
 </script>
 
-<div class="container">
+<div>
 	<h1>Welcome to <span>SpotiFM</span></h1>
 	<form on:submit|preventDefault={handleSubmit}>
 		<input name="search" placeholder="Search term..." bind:value={search} />
@@ -34,12 +34,6 @@
 </div>
 
 <style>
-	.container {
-		min-height: 100vh;
-		padding: 5rem;
-		gap: 1rem;
-	}
-
 	h1 {
 		text-align: center;
 	}

@@ -1,5 +1,4 @@
 :root {
-	/* color theme */
 	--white: hsl(0 0% 100%);
 	--background: hsl(0 0% 100%);
 	--foreground: hsl(240 10% 3.9%);
@@ -21,12 +20,6 @@
 	--input: hsl(240 5.9% 90%);
 	--ring: hsl(346.8 77.2% 49.8%);
 	--radius: hsl(0.5rem);
-
-	/* breakpoints */
-	--bp-sm: 576px;
-	--bp-md: 768px;
-	--bp-lg: 992px;
-	--bp-xl: 1200px;
 }
 
 .dark {
