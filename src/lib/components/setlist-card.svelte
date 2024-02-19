@@ -1,6 +1,7 @@
 <script lang="ts">
 	import type { Setlist } from '$lib/server/setlistfm/schemas/setlist';
 	import 'iconify-icon';
+	import Badge from '$lib/components/badge.svelte';
 
 	export let setlist: Setlist;
 
@@ -41,22 +42,22 @@
 			</a>
 
 			<div class="badges">
-				<div class="badge">
+				<Badge>
 					<iconify-icon icon="mdi:guitar-electric" inline class="icon" />
 					{setlist.artist.name}
-				</div>
+				</Badge>
 
 				{#if setlist.tour?.name}
-					<div class="badge">
+					<Badge>
 						<iconify-icon icon="mdi:world" inline class="icon" />
 						{setlist.tour.name}
-					</div>
+					</Badge>
 				{/if}
 
-				<div class="badge">
+				<Badge>
 					<iconify-icon icon="mdi:location-on-outline" inline class="icon" />
 					{setlist.venue.name}, {setlist.venue.city.name}, {setlist.venue.city.country.name}
-				</div>
+				</Badge>
 			</div>
 
 			<div class="tracks">
@@ -115,17 +116,6 @@
 		display: flex;
 		gap: 0.5rem;
 		flex-wrap: wrap;
-	}
-
-	.badge {
-		display: flex;
-		align-items: center;
-		gap: 0.25rem;
-		border: 1px solid var(--muted-foreground);
-		padding: 0.125rem 0.5rem;
-		border-radius: 1.5rem;
-		font-size: 0.75rem;
-		white-space: nowrap;
 	}
 
 	.icon {
