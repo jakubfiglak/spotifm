@@ -2,42 +2,22 @@
 	import type { Setlist } from '$lib/server/setlistfm/schemas/setlist';
 	import 'iconify-icon';
 	import Badge from '$lib/components/badge.svelte';
+	import EventDateTile from '$lib/components/event-date-tile.svelte';
 
 	export let setlist: Setlist;
 
-	const [day, month, year] = setlist.eventDate.split('-');
-	const eventDate = new Date(Number(year), Number(month), Number(day));
-
-	const formatter = new Intl.DateTimeFormat('en-us', {
-		day: 'numeric',
-		month: 'short',
-		year: 'numeric'
-	});
-
-	const formattedDate = formatter.format(eventDate);
-
-	const split = formattedDate.split(' ');
-
-	const monthStr = split[0];
-	const dayStr = split[1].substring(0, split[1].length - 1);
-	const yearStr = split[2];
-
-	const flattenedTracks = setlist.sets.set.flatMap((set) => set.song);
-	const slicedFlattenedTracks = flattenedTracks.slice(0, 10);
+	const venue = `${setlist.venue.name}, ${setlist.venue.city.name}, ${setlist.venue.city.country.name}`;
+	const songs = setlist.sets.set.flatMap((set) => set.song);
+	const firstTenSongs = songs.slice(0, 10);
 </script>
 
 <article>
 	<div class="wrapper">
-		<time>
-			<span>{monthStr}</span>
-			<span class="day">{dayStr}</span>
-			<span>{yearStr}</span>
-		</time>
+		<EventDateTile date={setlist.eventDate} />
 		<div class="content">
 			<a href="/setlists/{setlist.id}">
 				<h2>
-					{setlist.artist.name} @ {setlist.venue.name}, {setlist.venue.city.name}, {setlist.venue
-						.city.country.name}
+					{setlist.artist.name} @ {venue}
 				</h2>
 			</a>
 
@@ -56,15 +36,15 @@
 
 				<Badge>
 					<iconify-icon icon="mdi:location-on-outline" inline class="icon" />
-					{setlist.venue.name}, {setlist.venue.city.name}, {setlist.venue.city.country.name}
+					{venue}
 				</Badge>
 			</div>
 
 			<div class="tracks">
-				{#each slicedFlattenedTracks as track}
+				{#each firstTenSongs as track}
 					<span>{track.name}</span>
 				{/each}
-				{#if flattenedTracks.length > slicedFlattenedTracks.length}
+				{#if songs.length > firstTenSongs.length}
 					<span>...</span>
 				{/if}
 			</div>
@@ -85,13 +65,6 @@
 		flex-direction: column;
 		align-items: start;
 		gap: 1rem;
-	}
-
-	time {
-		background: var(--primary);
-		color: var(--white);
-		padding: 0.25rem 1rem;
-		border-radius: 0.25rem;
 	}
 
 	.content {
