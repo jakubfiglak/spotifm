@@ -49,6 +49,8 @@
 				{/if}
 			</div>
 		</div>
+
+		<iconify-icon icon="heroicons-solid:music-note" class="note" />
 	</div>
 </article>
 
@@ -61,6 +63,7 @@
 	}
 
 	.wrapper {
+		position: relative;
 		display: flex;
 		flex-direction: column;
 		align-items: start;
@@ -100,6 +103,16 @@
 		display: flex;
 		flex-wrap: wrap;
 		column-gap: 0.5rem;
+	}
+
+	.note {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		font-size: 8rem;
+		color: var(--muted-foreground);
+		opacity: 0.1;
+		z-index: -2;
 	}
 
 	@container (min-width: 36rem) {
