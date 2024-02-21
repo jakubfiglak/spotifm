@@ -2,24 +2,12 @@
 	import { page } from '$app/stores';
 	import { goto } from '$app/navigation';
 	import SetlistCard from '$lib/components/setlist-card.svelte';
-	import clsx from 'clsx';
+	import Pagination from '$lib/components/pagination.svelte';
 
 	export let data;
 
-	const totalPages =
-		data.total && data.itemsPerPage ? Math.ceil(data.total / data.itemsPerPage) : 0;
-
 	let search = $page.url.searchParams.get('search') ?? '';
-	$: currentPage = $page.url.searchParams.get('page') ?? '1';
-
-	function getPaginationItemHref(pageIdx: number) {
-		const pageNumber = (pageIdx + 1).toString();
-		const searchParams = $page.url.searchParams;
-
-		searchParams.set('page', pageNumber);
-
-		return `/?${searchParams.toString()}`;
-	}
+	$: currentPage = Number($page.url.searchParams.get('page')) ?? 1;
 
 	async function handleSubmit() {
 		const params = new URLSearchParams();
@@ -45,15 +33,7 @@
 			{/each}
 		</ul>
 
-		<div class="pagination">
-			{#each Array.from(Array(totalPages)).keys() as idx}
-				<a
-					href={getPaginationItemHref(idx)}
-					class={clsx('pagination-item', (idx + 1).toString() === currentPage && 'current-page')}
-					>{idx + 1}</a
-				>
-			{/each}
-		</div>
+		<Pagination total={data.total} {currentPage} />
 	{/if}
 </div>
 
@@ -90,25 +70,5 @@
 
 	li {
 		list-style: none;
-	}
-
-	.pagination {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 0.5rem;
-	}
-
-	.pagination-item {
-		height: 2rem;
-		width: 2rem;
-		border-radius: 100%;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		background: var(--muted);
-	}
-
-	.current-page {
-		background: var(--primary);
 	}
 </style>

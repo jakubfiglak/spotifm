@@ -2,7 +2,7 @@
 	/** @param {string} date - date of the concert in the format "dd-MM-yyyy" */
 	export let date: string;
 
-	const dateObj = new Date(date.split('-').reverse().join('-'));
+	$: dateObj = new Date(date.split('-').reverse().join('-'));
 
 	const formatter = new Intl.DateTimeFormat('en-us', {
 		day: 'numeric',
@@ -10,9 +10,9 @@
 		year: 'numeric'
 	});
 
-	const formattedDate = formatter.format(dateObj);
+	$: formattedDate = formatter.format(dateObj);
 
-	const [month, day, year] = formattedDate.split(' ');
+	$: [month, day, year] = formattedDate.split(' ');
 </script>
 
 <time>

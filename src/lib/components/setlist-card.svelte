@@ -6,9 +6,9 @@
 
 	export let setlist: Setlist;
 
-	const venue = `${setlist.venue.name}, ${setlist.venue.city.name}, ${setlist.venue.city.country.name}`;
-	const songs = setlist.sets.set.flatMap((set) => set.song);
-	const firstTenSongs = songs.slice(0, 10);
+	$: venue = `${setlist.venue.name}, ${setlist.venue.city.name}, ${setlist.venue.city.country.name}`;
+	$: songs = setlist.sets.set.flatMap((set) => set.song);
+	$: firstTenSongs = songs.slice(0, 10);
 </script>
 
 <article>
@@ -109,7 +109,7 @@
 		position: absolute;
 		right: 0;
 		bottom: 0;
-		font-size: 8rem;
+		font-size: 5rem;
 		color: var(--muted-foreground);
 		opacity: 0.1;
 		z-index: -2;
