@@ -7,7 +7,9 @@
 	export let data;
 
 	let search = $page.url.searchParams.get('search') ?? '';
-	$: currentPage = Number($page.url.searchParams.get('page')) ?? 1;
+	$: currentPage = $page.url.searchParams.get('page')
+		? Number($page.url.searchParams.get('page'))
+		: 1;
 
 	async function handleSubmit() {
 		const params = new URLSearchParams();
