@@ -4,8 +4,6 @@
 	const {
 		setlist: { sets, artist, venue, tour, eventDate }
 	} = data;
-
-	console.log(sets);
 </script>
 
 <div>

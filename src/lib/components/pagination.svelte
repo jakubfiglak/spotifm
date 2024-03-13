@@ -11,9 +11,9 @@
 
 	$: items = getPaginationItems({ currentPage, totalPages });
 
-	$: getHref = (item: number) => {
+	const getHref = (item: number) => {
 		const pathname = $page.url.pathname;
-		const params = $page.url.searchParams;
+		const params = new URLSearchParams($page.url.searchParams);
 		params.set('page', item.toString());
 		return `${pathname}?${params.toString()}`;
 	};

@@ -23,8 +23,6 @@ export async function getSetlists({ artistName, page = 1 }: GetSetlistArgs) {
 		return setlistsResponseSchema.parse(data);
 	}
 
-	console.error(JSON.stringify(response, null, 2));
-
 	return null;
 }
 
