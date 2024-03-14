@@ -17,6 +17,15 @@
 
 		await goto(`?${params.toString()}`, { keepFocus: true });
 	}
+
+	function getItemHref(page: number) {
+		const params = new URLSearchParams();
+
+		params.append('search', search);
+		params.append('page', page.toString());
+
+		return `?${params.toString()}`;
+	}
 </script>
 
 <div>
@@ -34,7 +43,7 @@
 			{/each}
 		</ul>
 
-		<Pagination total={data.total} {currentPage} />
+		<Pagination total={data.total} {currentPage} {getItemHref} />
 	{/if}
 </div>
 

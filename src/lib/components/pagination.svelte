@@ -1,28 +1,21 @@
 <script lang="ts">
-	import { page } from '$app/stores';
 	import clsx from 'clsx';
 	import { getPaginationItems } from './pagination';
 
 	export let total = 0;
 	export let itemsPerPage = 20;
 	export let currentPage = 1;
+	export let getItemHref: (page: number) => string;
 
 	$: totalPages = Math.ceil(total / itemsPerPage) || 1;
 
 	$: items = getPaginationItems({ currentPage, totalPages });
-
-	const getHref = (item: number) => {
-		const pathname = $page.url.pathname;
-		const params = new URLSearchParams($page.url.searchParams);
-		params.set('page', item.toString());
-		return `${pathname}?${params.toString()}`;
-	};
 </script>
 
 <div class="pagination">
 	{#each items as item}
 		{#if typeof item === 'number'}
-			<a href={getHref(item)} class={clsx('pagination-item', item === currentPage && 'current')}
+			<a href={getItemHref(item)} class={clsx('pagination-item', item === currentPage && 'current')}
 				>{item}</a
 			>
 		{:else if typeof item === 'string'}
