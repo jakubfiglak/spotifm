@@ -36,7 +36,7 @@
 	</form>
 	{#if data.setlist}
 		<ul>
-			{#each data.setlist as setlist}
+			{#each data.setlist as setlist (setlist.id)}
 				<li>
 					<SetlistCard {setlist} />
 				</li>

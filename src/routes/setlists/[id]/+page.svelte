@@ -16,7 +16,7 @@
 	<div class="setlist">
 		<ol>
 			{#each sets.set as set}
-				{#each set.song as song}
+				{#each set.song as song (song.name)}
 					<li>{song.name}</li>
 				{/each}
 			{/each}

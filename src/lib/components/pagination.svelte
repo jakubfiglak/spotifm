@@ -13,7 +13,7 @@
 </script>
 
 <div class="pagination">
-	{#each items as item}
+	{#each items as item (item)}
 		{#if typeof item === 'number'}
 			<a href={getItemHref(item)} class={clsx('pagination-item', item === currentPage && 'current')}
 				>{item}</a
