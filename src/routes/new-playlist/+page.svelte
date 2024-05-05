@@ -6,7 +6,7 @@
 	<div class="setlist">
 		<ol>
 			{#each $playlistStore as song}
-				<li>{song.name}</li>
+				<li>{song.artist} - {song.name}</li>
 			{/each}
 		</ol>
 	</div>

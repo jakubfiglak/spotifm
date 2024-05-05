@@ -1,9 +1,11 @@
 import type { Song } from '$lib/server/setlistfm/schemas/song';
 import { writable } from 'svelte/store';
 
-export const playlistStore = writable<Array<Song>>([]);
+type SongWithArtist = Song & { artist: string };
 
-export function addSongs(songs: Array<Song>) {
+export const playlistStore = writable<Array<SongWithArtist>>([]);
+
+export function addSongs(songs: Array<SongWithArtist>) {
 	return playlistStore.update((playlist) => [...playlist, ...songs]);
 }
 

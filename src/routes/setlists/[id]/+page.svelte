@@ -20,7 +20,9 @@
 	{/if}
 	<p>Date: {eventDate}</p>
 
-	<button on:click={() => addSongs(allSongs)}>Add songs to playlist</button>
+	<button on:click={() => addSongs(allSongs.map((song) => ({ ...song, artist: artist.name })))}
+		>Add songs to playlist</button
+	>
 
 	<div class="setlist">
 		<ol>
