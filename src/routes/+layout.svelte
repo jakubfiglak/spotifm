@@ -1,21 +1,25 @@
 <script>
+	import Nav from '$lib/components/nav.svelte';
 	import '../index.css';
 </script>
 
 <main>
-	<slot />
+	<Nav />
+	<div class="app-wrapper">
+		<slot />
+	</div>
 </main>
 
 <style>
-	main {
-		padding: 0 1rem;
+	.app-wrapper {
+		padding: 1rem 1rem;
 		max-width: 70rem;
-		margin: 0 auto;
+		margin: var(--nav-height) auto;
 	}
 
 	@media (min-width: 36rem) {
-		main {
-			padding: 0 3rem;
+		.app-wrapper {
+			padding: 1rem 3rem;
 		}
 	}
 </style>
