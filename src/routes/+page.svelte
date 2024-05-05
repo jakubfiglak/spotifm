@@ -29,7 +29,6 @@
 </script>
 
 <div>
-	<h1>Welcome to <span>SpotiFM</span></h1>
 	<form on:submit|preventDefault={handleSubmit}>
 		<input name="search" placeholder="Search term..." bind:value={search} />
 		<input type="submit" value="Search" />
@@ -48,14 +47,6 @@
 </div>
 
 <style>
-	h1 {
-		text-align: center;
-	}
-
-	h1 span {
-		color: var(--primary);
-	}
-
 	form {
 		display: flex;
 		justify-content: center;
