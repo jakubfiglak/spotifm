@@ -1,10 +1,14 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 	import { goto } from '$app/navigation';
+	import SetlistCard from '$lib/components/setlist-card.svelte';
+	import Pagination from '$lib/components/pagination.svelte';
 
 	export let data;
 
 	let search = $page.url.searchParams.get('search') ?? '';
+	$: paramsPage = $page.url.searchParams.get('page');
+	$: currentPage = paramsPage ? Number(paramsPage) : 1;
 
 	async function handleSubmit() {
 		const params = new URLSearchParams();
@@ -13,9 +17,18 @@
 
 		await goto(`?${params.toString()}`, { keepFocus: true });
 	}
+
+	function getItemHref(page: number) {
+		const params = new URLSearchParams();
+
+		params.append('search', search);
+		params.append('page', page.toString());
+
+		return `?${params.toString()}`;
+	}
 </script>
 
-<div class="container">
+<div>
 	<h1>Welcome to <span>SpotiFM</span></h1>
 	<form on:submit|preventDefault={handleSubmit}>
 		<input name="search" placeholder="Search term..." bind:value={search} />
@@ -23,25 +36,20 @@
 	</form>
 	{#if data.setlist}
 		<ul>
-			{#each data.setlist as setlist}
+			{#each data.setlist as setlist (setlist.id)}
 				<li>
-					<a href="/setlists/{setlist.id}">
-						{setlist.artist.name} at {setlist.venue.name}, {setlist.eventDate}
-					</a>
+					<SetlistCard {setlist} />
 				</li>
 			{/each}
 		</ul>
+
+		<Pagination total={data.total} {currentPage} {getItemHref} />
 	{/if}
 </div>
 
 <style>
-	.container {
-		min-height: 100vh;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		padding: 5rem;
-		gap: 1rem;
+	h1 {
+		text-align: center;
 	}
 
 	h1 span {
@@ -53,6 +61,7 @@
 		justify-content: center;
 		align-items: center;
 		gap: 1rem;
+		margin-bottom: 2rem;
 	}
 
 	input {
@@ -60,5 +69,16 @@
 		border: 1px solid var(--input);
 		padding: 0.25rem 0.75rem;
 		width: 16rem;
+	}
+
+	ul {
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+		margin-bottom: 2rem;
+	}
+
+	li {
+		list-style: none;
 	}
 </style>

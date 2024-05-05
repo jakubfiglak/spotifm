@@ -1,4 +1,5 @@
 :root {
+	--white: hsl(0 0% 100%);
 	--background: hsl(0 0% 100%);
 	--foreground: hsl(240 10% 3.9%);
 	--card: hsl(0 0% 100%);
@@ -51,6 +52,7 @@
 
 * {
 	margin: 0;
+	padding: 0;
 }
 
 body {
@@ -59,6 +61,11 @@ body {
 	font-family: 'Hind', sans-serif;
 	line-height: 1.5;
 	-webkit-font-smoothing: antialiased;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
 }
 
 h1,
