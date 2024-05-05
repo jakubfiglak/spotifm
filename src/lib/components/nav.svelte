@@ -1,9 +1,13 @@
+<script>
+	import PlaylistBadge from './playlist-badge.svelte';
+</script>
+
 <nav>
 	<div class="content">
 		<a href="/">
 			<div class="logo">SpotiFm</div>
 		</a>
-		<div>hello</div>
+		<PlaylistBadge />
 	</div>
 </nav>
 
