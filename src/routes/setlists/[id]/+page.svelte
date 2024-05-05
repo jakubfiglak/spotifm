@@ -1,9 +1,16 @@
-<script>
+<script lang="ts">
+	import type { Song } from '$lib/server/setlistfm/schemas/song';
+	import { addSongs } from '$lib/stores/playlist-store';
+
 	export let data;
 
 	const {
 		setlist: { sets, artist, venue, tour, eventDate }
 	} = data;
+
+	const allSongs = sets.set.reduce<Array<Song>>((acc, curr) => {
+		return [...acc, ...curr.song];
+	}, []);
 </script>
 
 <div>
@@ -12,6 +19,8 @@
 		<p>Tour: {tour.name}</p>
 	{/if}
 	<p>Date: {eventDate}</p>
+
+	<button on:click={() => addSongs(allSongs)}>Add songs to playlist</button>
 
 	<div class="setlist">
 		<ol>

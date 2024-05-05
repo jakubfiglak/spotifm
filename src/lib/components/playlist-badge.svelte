@@ -1,7 +1,5 @@
 <script lang="ts">
 	import { playlistStore } from '$lib/stores/playlist-store';
-
-	console.log($playlistStore.length);
 </script>
 
 <a href="/new-playlist">

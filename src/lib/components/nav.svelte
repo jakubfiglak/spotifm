@@ -5,7 +5,7 @@
 <nav>
 	<div class="content">
 		<a href="/">
-			<div class="logo">SpotiFm</div>
+			<div class="logo">SpotiFM</div>
 		</a>
 		<PlaylistBadge />
 	</div>
@@ -36,6 +36,7 @@
 		color: var(--primary);
 		font-size: 1.5rem;
 		font-weight: bold;
+		font-family: 'Montserrat', sans-serif;
 	}
 
 	@media (min-width: 36rem) {

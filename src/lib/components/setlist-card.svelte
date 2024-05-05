@@ -41,7 +41,7 @@
 			</div>
 
 			<div class="tracks">
-				{#each firstTenSongs as track (track.name)}
+				{#each firstTenSongs as track}
 					<span>{track.name}</span>
 				{/each}
 				{#if songs.length > firstTenSongs.length}
